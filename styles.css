@@ -466,7 +466,7 @@ button.new-year-button:hover {
     bottom: 0;
     width: 100px;
     height: 100px;
-    background: url('.snowman.png') no-repeat center / contain;
+    background: url('./snowman.png') no-repeat center / contain;
     animation: walk 10s linear infinite, look-around 15s ease-in-out infinite;
   }
 
