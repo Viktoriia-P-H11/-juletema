@@ -48,7 +48,7 @@ body {
     left: -150px;
     right: -141px;
     bottom: 0px;
-    background: url(./images/pngegg.png) repeat;
+    background: url(./img-1.png) repeat;
     box-sizing: border-box;
     background-size: 107%;
     background-position: top left, top right, bottom left, bottom right;
@@ -65,7 +65,7 @@ body {
     left: -150px;
     right: -141px;
     bottom: 0px;
-    background: url(./images/pngwing.com.png) repeat;
+    background: url(./img-2.png) repeat;
     box-sizing: border-box;
     background-size: 107%;
     background-position: top left, top right, bottom left, bottom right;
@@ -82,7 +82,7 @@ body {
     left: -405px;
     right: 0px;
     bottom: 0px;
-    background: url(./images/ramka+emp.png) repeat;
+    background: url(./img-3.png) repeat;
     box-sizing: border-box;
     background-size: 107%;
     background-position: top left, top right, bottom left, bottom right;
@@ -466,7 +466,7 @@ button.new-year-button:hover {
     bottom: 0;
     width: 100px;
     height: 100px;
-    background: url('./images/snowman.png') no-repeat center / contain;
+    background: url('.snowman.png') no-repeat center / contain;
     animation: walk 10s linear infinite, look-around 15s ease-in-out infinite;
   }
 
