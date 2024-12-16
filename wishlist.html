@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="icon" href="./images/favicon.png" type="image/x-icon">
+    <title>Wishlist</title>
+</head>
+<body>
+    <div class="container-wishlist">
+        <header class="header-wishlist">
+            <nav>
+                <ul class="navigation">
+                    <li>
+                        <a href="./index.html">
+                            <img src="./images/icon-home.png" alt="Home Icon" width="108" height="73">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./employees.html">
+                            <img src="./images/icon-employes.png" alt="Employees Icon" width="108" height="73">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./wishlist.html">
+                            <img src="./images/icon-wishlist.png" alt="Wishlist Icon" width="108" height="73">
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <h1>Wishlist for Santa</h1>
+        <main class="main-wishlist">
+            <section id="wishlist" class="section">
+                <form>
+                    <input type="text" id="name" name="name" required placeholder="Your Name">
+                    
+                    <input type="number" id="age" name="age" required placeholder="Your Age">
+                    
+                    <textarea id="gifts" name="gifts" rows="5" required placeholder="Your Wishlist"></textarea>
+                    
+                    <button class="new-year-button" type="submit">Send the list to Santa</button>
+                </form>
+            </section>
+            <div class="snowflake" style="left: 10%; animation-duration: 12s;"></div>
+            <div class="snowflake" style="left: 30%; animation-duration: 10s;"></div>
+            <div class="snowflake" style="left: 50%; animation-duration: 14s;"></div>
+            <div class="snowflake" style="left: 70%; animation-duration: 16s;"></div>
+            <div class="snowflake" style="left: 90%; animation-duration: 18s;"></div>
+        </main>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
